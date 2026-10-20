@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meus sites favoritos</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: white;
+            color: black;
+            text-align: center;
+        }
+        .sites {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .site {
+            width: 180px;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .site h1 { font-size: 22px; }
+        .site img {
+            width: 160px;
+            height: 100px;
+            object-fit: contain;
+        }
+        a { color: black; }
+    </style>
+</head>
+<body>
+    <!-- Título principal -->
+    <h1>Meus sites favoritos: Seu Nome</h1>
+
+    <!-- Sites organizados na horizontal -->
+    <div class="sites">
+        <!-- Site 1 -->
+        <div class="site">
+            <h1>YouTube</h1>
+            <a href="https://www.youtube.com"><img src="imagens/youtube.png" alt="YouTube"></a>
+            <p><a href="https://www.youtube.com">Acessar YouTube</a></p>
+        </div>
+
+        <!-- Site 2 -->
+        <div class="site">
+            <h1>TikTok</h1>
+            <a href="https://www.tiktok.com"><img src="imagens/tiktok.png" alt="TikTok"></a>
+            <p><a href="https://www.tiktok.com">Acessar TikTok</a></p>
+        </div>
+
+        <!-- Site 3 -->
+        <div class="site">
+            <h1>EAD TEC</h1>
+            <a href="https://eadtec.cps.sp.gov.br"><img src="imagens/eadtec.png" alt="EAD TEC"></a>
+            <p><a href="https://eadtec.cps.sp.gov.br">Acessar EAD TEC</a></p>
+        </div>
+
+        <!-- Site 4 -->
+        <div class="site">
+            <h1>Gmail</h1>
+            <a href="https://mail.google.com"><img src="imagens/gmail.png" alt="Gmail"></a>
+            <p><a href="https://mail.google.com">Acessar Gmail</a></p>
+        </div>
+
+        <!-- Site 5 -->
+        <div class="site">
+            <h1>Google Maps</h1>
+            <a href="https://www.google.com/maps"><img src="imagens/google_maps.png" alt="Google Maps"></a>
+            <p><a href="https://www.google.com/maps">Acessar Google Maps</a></p>
+        </div>
+    </div>
+</body>
+</html>
