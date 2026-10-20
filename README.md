@@ -14,3 +14,4 @@ Página web simples criada com HTML, apresentando meus 5 sites favoritos.
 
 ## Tecnologias utilizadas
 - HTML5
+- CSS3
